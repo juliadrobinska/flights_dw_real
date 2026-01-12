@@ -12,6 +12,10 @@ It aims to answer questions such as:
 
 ## Overall Architecture
 
+The project follows a simple data warehouse flow.
+Raw flight data is first loaded into a staging layer, then transformed into
+cleaned core tables, which are later used for analysis and analytical views.
+
 ## Staging Layer
 
 ## Core Layer
