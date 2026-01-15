@@ -27,6 +27,10 @@ No business logic or transformations are applied here.
 
 ## Core Layer
 
+The core layer contains cleaned, structured, and analysis-ready data.
+It represents the main analytical layer of the project and is used directly
+for querying, reporting, and creating analytical views.
+
 ### Fact Table: flights
 
 ### Dimension Tables
