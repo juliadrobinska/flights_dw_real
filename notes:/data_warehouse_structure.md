@@ -33,6 +33,10 @@ for querying, reporting, and creating analytical views.
 
 ### Fact Table: flights
 
+The flights table stores flight-level data, where each row represents a single flight.
+It contains key metrics such as departure and arrival delays, distance, and cancellation status,
+as well as foreign keys linking flights to airlines and airports.
+
 ### Dimension Tables
 
 ## Data Quality & Integrity
