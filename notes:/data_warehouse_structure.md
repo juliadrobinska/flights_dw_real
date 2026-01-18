@@ -39,6 +39,10 @@ as well as foreign keys linking flights to airlines and airports.
 
 ### Dimension Tables
 
+Dimension tables are used to ensure data consistency and referential integrity.
+They also provide a foundation for future extensibility, allowing additional
+attributes to be added without changing the fact table structure.
+
 ## Data Quality & Integrity
 
 ## Why This Design
